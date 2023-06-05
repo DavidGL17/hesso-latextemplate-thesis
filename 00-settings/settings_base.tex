@@ -5,6 +5,8 @@
 % General tools
 % -------------
 \usepackage{etoolbox}
+\usepackage[obeyspaces,spaces]{url}
+
 
 % Page style
 % ----------
@@ -127,7 +129,8 @@
 backend=biber,
 style=numeric,
 sorting=none,
-bibencoding=auto
+bibencoding=auto,
+backref=true
 ]{biblatex}
 \addbibresource{03-tail/bibliography.bib}
 
@@ -242,7 +245,6 @@ bibencoding=auto
 
 % References
 % -----------
-\usepackage{url}
 
 % pdf metadata
 \usepackage[
@@ -305,10 +307,5 @@ bibencoding=auto
 
 \lstset{style=mystyle}
 
-% To use this : 
-% \begin{listing}[!ht]
-%     \begin{lstlisting}[language=python, breaklines=true,breakatwhitespace=false]
-%     ********CODE*******
-%     \end{lstlisting}
-%     \caption[test]{test}\label{lst:test}
-% \end{listing}
+% for importing pdfs, use \includepdf{}
+\usepackage{pdfpages}
