@@ -6,15 +6,15 @@ Say goodbye to ugly and proprietary MS Word files!
 
 ## Features
 
-- Title page with official layout
-- Table of contents, Table of figures, Table of tables
-- Abstracts (French + English)
-- Nice title styles for chapter and appendices
-- Chapter table of contents (minitoc)
-- Bibliography
-- Glossary
-- Code highlighting with minted
-- Nice default typography settings
+-   Title page with official layout
+-   Table of contents, Table of figures, Table of tables
+-   Abstracts (French + English)
+-   Nice title styles for chapter and appendices
+-   Chapter table of contents (minitoc)
+-   Bibliography
+-   Glossary
+-   Code highlighting with minted
+-   Nice default typography settings
 
 ## Getting started
 
@@ -35,6 +35,15 @@ Say goodbye to ugly and proprietary MS Word files!
 
 ## Thanks to
 
-- Maria Sisto, for the title page
-- Loïc Monney, for the section title style, captions style and font idea
-- EPFL, for the basic structure
+-   Maria Sisto, for the title page
+-   Loïc Monney, for the section title style, captions style and font idea
+-   EPFL, for the basic structure
+
+## How to install LaTeX
+
+In WSL2, Ubuntu 22.04
+
+```bash
+sudo apt-get update
+sudo apt-get install texlive-full biber texlive-lang-french texlive-latex-extra
+```
